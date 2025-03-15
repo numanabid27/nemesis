@@ -13,7 +13,7 @@ export default function Nav() {
                 <li className='second-heading'>Home</li>
                 <li className='second-heading'>Page 2</li>
                 <li className='second-heading'>Page 3</li>
-                <li className='second-heading'>Page 4</li>
+                <li className='second-heading'>...</li>
             </ul>
         </div>
     </div>

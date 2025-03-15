@@ -36,7 +36,7 @@ p{
     height: 100vh;
   }
   .container{
-    @apply mx-auto max-w-[1300px]
+    @apply mx-auto max-w-[1300px] px-[14px]
   }
   .button-gradient{
     background: linear-gradient(90deg,rgba(72,85,181,.81),rgba(141,56,87,.93));

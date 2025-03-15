@@ -16,7 +16,7 @@ export default function HomeComponent() {
     <>
         <div className="banner relative">
             <div className="absolute right-0 left-0 top-0 bottom-0 h-fit m-auto">
-                <h2 className="second-heading text-[52px] font-semibold text-center max-w-[900px] mx-auto">A Mythological Open-World RPG of Conquest & Destiny. </h2>
+                <h2 className="second-heading text-[24px] md:text-[52px] font-semibold text-center max-w-[900px] mx-auto">A Mythological Open-World RPG of Conquest & Destiny. </h2>
                 
             </div>
             <div className="bottom-[29px] absolute right-0 left-0 botton-[25px]">
@@ -27,8 +27,8 @@ export default function HomeComponent() {
             </div>
         </div>
         <div className="mt-16 mb-11 container">
-            <div className="flex gap-2 items-center justify-between mx-auto max-w-[1100px]" id="main">
-                <div className="w-[60%]">
+            <div className="flex gap-2 items-center justify-between mx-auto max-w-[1100px] md:flex-row flex-col" id="main">
+                <div className="md:w-[60%] w-full">
                     <h6 className="!leading-[1.6] second-heading text-[20px] font-medium">In a world without humans, only myths remain. Beast King is a cinematic open-world RPG 
                         where you, a young war-weary Lamassu, rise from exile to forge your destiny. Rule through 
                         wisdom or terror, shape an AI-driven world of warring factions, and command legendary beasts 
@@ -38,7 +38,7 @@ export default function HomeComponent() {
                     </h6>
                     <button type="button" className="button-gradient text-white mt-[23px] rounded-[10px] py-3 px-[18px]">Game Features</button>
                 </div>
-                <div className="w-[35%]">
+                <div className="md:w-[35%] w-full">
                     <Image src={key} alt="" className="rounded-[8px]" />
                 </div>
             </div>
@@ -46,7 +46,7 @@ export default function HomeComponent() {
         {/* key concept */}
         <div className="container">
             <h2 className="second-heading text-[52px] font-semibold text-center">Key Concept</h2>
-            <div className="flex gap-6 mt-7 mx-auto max-w-[1000px] justify-center">
+            <div className="flex gap-6 mt-7 mx-auto max-w-[1000px] justify-center md:flex-row flex-col">
                 <div>
                     <Image src={concept1} className="rounded-[8px]" alt="" />
                 </div>
@@ -61,11 +61,11 @@ export default function HomeComponent() {
 
         <div className="container mt-7">
             <h2 className="second-heading text-[52px] font-semibold text-center">Play Station</h2>
-            <div className="flex justify-center mt-8">
-                <div className="w-[40%]">
+            <div className="flex justify-center mt-8 md:flex-row flex-col">
+                <div className="md:w-[40%] w-full">
                     <Image src={ps5} alt="" />
                 </div>
-                <div className="w-[40%]">
+                <div className="md:w-[40%] w-full">
                     <Image src={ps5key} className="rounded-[8px]" alt="" />
                 </div>
             </div>
