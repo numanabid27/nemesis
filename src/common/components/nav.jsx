@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "@/common/assets/logo.webp"
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Nav() {
   return (
@@ -10,9 +11,15 @@ export default function Nav() {
         </div>
         <div>
             <ul className='flex gap-5'>
-                <li className='second-heading'>Home</li>
-                <li className='second-heading'>Page 2</li>
-                <li className='second-heading'>Page 3</li>
+                <li className='second-heading'>
+                  <Link href="/">Home</Link>
+                </li>
+                <li className='second-heading'>
+                  <Link href="page-2">Page 2</Link>
+                </li>
+                <li className='second-heading'>
+                  <Link href="#">Page 3</Link>
+                </li>
                 <li className='second-heading'>...</li>
             </ul>
         </div>

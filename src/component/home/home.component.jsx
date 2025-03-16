@@ -1,9 +1,9 @@
 "use client"
 
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import concept1 from "@/common/assets/concept-1.webp"
+import concept1 from "@/common/assets/concept-4.webp"
 import concept2 from "@/common/assets/concept-2.webp"
-import concept3 from "@/common/assets/concept-3.webp"
+import concept3 from "@/common/assets/concept-5.webp"
 import Image from "next/image";
 import key from "@/common/assets/keyy.png"
 import ps5 from "@/common/assets/ps-5.png"
@@ -45,7 +45,7 @@ export default function HomeComponent() {
         </div>
         {/* key concept */}
         <div className="container">
-            <h2 className="second-heading text-[52px] font-semibold text-center">Key Concept</h2>
+            {/* <h2 className="second-heading text-[52px] font-semibold text-center">Key Concept</h2> */}
             <div className="flex gap-6 mt-7 mx-auto max-w-[1000px] justify-center md:flex-row flex-col">
                 <div>
                     <Image src={concept1} className="rounded-[8px]" alt="" />
@@ -60,7 +60,7 @@ export default function HomeComponent() {
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center">Play Station</h2>
+            <h2 className="second-heading text-[52px] font-semibold text-center">Made Exculsively for PlayStation</h2>
             <div className="flex justify-center mt-8 md:flex-row flex-col">
                 <div className="md:w-[40%] w-full">
                     <Image src={ps5} alt="" />

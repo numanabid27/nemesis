@@ -1,6 +1,7 @@
 import { Oxanium } from "next/font/google";
 import "./globals.css";
 import Nav from "@/common/components/nav";
+import Footer from "@/common/components/footer";
 
 
 const geistMono = Oxanium({
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
             <main>
              {children}
             </main>
+            <Footer />
         </div>
       </body>
     </html>
