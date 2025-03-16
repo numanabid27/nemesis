@@ -3,7 +3,7 @@ import React from 'react'
 import { MdKeyboardDoubleArrowDown } from 'react-icons/md'
 import concept6 from "@/common/assets/concept-6.webp"
 import concept7 from "@/common/assets/concept-7.webp"
-import concept8 from "@/common/assets/concept-11.png"
+import concept8 from "@/common/assets/concept-11.PNG"
 import Image from 'next/image'
 
 export default function Page2component() {
