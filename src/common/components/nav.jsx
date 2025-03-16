@@ -18,7 +18,7 @@ export default function Nav() {
                   <Link href="page-2">Page 2</Link>
                 </li>
                 <li className='second-heading'>
-                  <Link href="#">Page 3</Link>
+                  <Link href="page-3">Page 3</Link>
                 </li>
                 <li className='second-heading'>...</li>
             </ul>

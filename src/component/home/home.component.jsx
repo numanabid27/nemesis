@@ -1,8 +1,8 @@
 "use client"
 
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import concept1 from "@/common/assets/concept-4.webp"
-import concept2 from "@/common/assets/concept-2.webp"
+import concept1 from "@/common/assets/concept-9.png"
+import concept2 from "@/common/assets/concept-10.png"
 import concept3 from "@/common/assets/concept-5.webp"
 import Image from "next/image";
 import key from "@/common/assets/keyy.png"
