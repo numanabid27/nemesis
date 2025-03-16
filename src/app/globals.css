@@ -54,4 +54,13 @@ p{
   .animate-bounce-down {
     animation: bounceDown 1s infinite;
   }
+
+  .list-disc__last{
+    letter-spacing: -0.025em;
+    background: linear-gradient(0deg, #888, #fff 75%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.3;
+  }
 }
