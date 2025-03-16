@@ -23,36 +23,36 @@ export default function Page2component() {
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center">Cinematic RPG Combat </h2>
+            <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">Cinematic RPG Combat </h2>
             <p className='text-center second-heading text-[18px] pb-[10px]'>God of War-style melee, aerial battles, and large-scale faction 
             conflicts.</p>
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center">AI-Driven Factions & Allegiance System</h2>
+            <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">AI-Driven Factions & Allegiance System</h2>
             <p className='text-center second-heading text-[18px] pb-[10px]'>Every faction reacts to your rule—ally, resist, or 
             betray.</p>
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center">Dynamic Morality & Title System </h2>
+            <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">Dynamic Morality & Title System </h2>
             <p className='text-center second-heading text-[18px] pb-[10px]'>Your actions define how the world sees you—from ‘Child 
             of Light’ to ‘King of Darkness’.</p>
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center">World of Mythical Creatures & Extinct Beasts</h2>
+            <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">World of Mythical Creatures & Extinct Beasts</h2>
             <p className='text-center second-heading text-[18px] pb-[10px]'>No humans—only legendary beings, ancient 
             deities, and lost creatures.</p>
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center">Seamless Open World </h2>
+            <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">Seamless Open World </h2>
             <p className='text-center second-heading text-[18px] pb-[10px]'>Explore vast biomes without loading screens.</p>
         </div>
 
         <div className="container mt-7">
-            <h2 className="second-heading text-[52px] font-semibold text-center"> PS5-Exclusive Enhancements </h2>
+            <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center"> PS5-Exclusive Enhancements </h2>
             <p className='text-center second-heading text-[18px] pb-[10px]'>DualSense, Tempest 3D Audio, next-gen AI.</p>
         </div>
 
