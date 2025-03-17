@@ -28,6 +28,16 @@ p{
     -webkit-text-fill-color: transparent;
     line-height: 1.3;
   }
+  .second-heading.second-heading__custom span{
+    font-weight: 700;
+  }
+  .listing-pitch li{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .listing-pitch li span{
+    font-weight: 700;
+  }
   .active::after{
     content: '';
     position: absolute;

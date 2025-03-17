@@ -35,11 +35,15 @@ export default function Nav() {
       name:"About Us", 
       url:"/about-us"
     },
+    {
+      name:"Content & Playstation Partner Pitch", 
+      url:"/palystation-paterner-pitch"
+    },
 
   ]
   return (
     <div className='flex container items-center justify-between'>
-        <div className='w-[60%]'>
+        <div className='w-[25%]'>
             <Image src={logo} alt="" className='w-[90px]' />
         </div>
         <div className="lg:hidden cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
