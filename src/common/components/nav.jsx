@@ -39,6 +39,10 @@ export default function Nav() {
       name:"Content & Playstation Partner Pitch", 
       url:"/palystation-paterner-pitch"
     },
+    {
+      name:"Conquistador", 
+      url:"/conquistador"
+    },
 
   ]
   return (
