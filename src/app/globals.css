@@ -61,6 +61,20 @@ p{
     background-repeat: no-repeat;
     height: 79vh;
   }
+  .banner3{
+    background-image: linear-gradient(90deg,rgba(72,85,181,.81),rgba(141,56,87,.93)), url("../common/assets/god3.PNG");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 79vh;
+  }
+  @media screen and (max-width:767px){
+    .banner,
+    .banner2,
+    .banner3{
+      height: 50vh;
+    }
+  }
   .container{
     @apply mx-auto max-w-[1300px] px-[14px]
   }

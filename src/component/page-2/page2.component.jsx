@@ -10,7 +10,7 @@ export default function Page2component() {
   return (
     <>
         <div className="banner relative ab">
-            <div className="absolute right-0 left-0 top-0 bottom-0 h-fit m-auto">
+            <div className="absolute left-[16px] right-[16px] top-0 bottom-0 h-fit m-auto">
                 <h2 className="second-heading text-[24px] md:text-[52px] font-semibold text-center max-w-[900px] mx-auto">A Mythological Open-World RPG of Conquest & Destiny. </h2>
                 
             </div>

@@ -26,7 +26,7 @@ export default function MediaComponent() {
   return (
     <>
         <div className="banner relative">
-            <div className="absolute right-0 left-0 top-0 bottom-0 h-fit m-auto">
+            <div className="absolute left-[16px] right-[16px] top-0 bottom-0 h-fit m-auto">
                 <h2 className="second-heading text-[24px] md:text-[52px] font-semibold text-center max-w-[900px] mx-auto"> Concept Art & Screenshots </h2>  
             </div>
             <div className="bottom-[29px] absolute right-0 left-0 botton-[25px]">

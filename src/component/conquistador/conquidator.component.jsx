@@ -14,21 +14,21 @@ export default function ConquidatorComponent() {
   return (
     <>
         <div className="banner2 relative">
-            <div className="absolute right-0 left-0 top-0 bottom-0 h-fit m-auto">
-                <h2 className="second-heading text-[22px] md:text-[44px] font-semibold text-center max-w-[900px] mx-auto">Overview the upcoming historical RPG</h2>
+            <div className="h-fit m-auto absolute bottom-0 left-[16px] right-[16px] top-0">
+                <h2 className="text-[22px] text-center font-semibold max-w-[900px] md:text-[44px] mx-auto second-heading">Overview the upcoming historical RPG</h2>
                 
             </div>
-            <div className="bottom-[29px] absolute right-0 left-0 botton-[25px]">
-                <p className="text-center second-heading text-[18px] pb-[10px]">Explore the Conquistador.</p>
+            <div className="absolute bottom-[29px] botton-[25px] left-0 right-0">
+                <p className="text-[18px] text-center pb-[10px] second-heading">Explore the Conquistador.</p>
                 <Link href="#main">
-                    <MdKeyboardDoubleArrowDown className="text-white animate-bounce-down cursor-pointer text-center text-3xl block w-full" />
+                    <MdKeyboardDoubleArrowDown className="text-3xl text-center text-white w-full animate-bounce-down block cursor-pointer" />
                 </Link>
             </div>
         </div>
 
         <div className='container'>
-            <div className='mt-9 mb-7' id='main'>
-                <h6 className="!leading-[1.6] text-center second-heading text-[20px] font-medium">In a world without humans, only myths remain. Beast King is a cinematic open-world RPG 
+            <div className='mb-7 mt-9' id='main'>
+                <h6 className="text-[20px] text-center !leading-[1.6] font-medium second-heading">In a world without humans, only myths remain. Beast King is a cinematic open-world RPG 
                     Conquistador is a historical RPG where you fight as either an Aztec warrior or a Spanish
                     Conquistador, experiencing the legendary battles that defined an empire's fall. Combining brutal
                     tactical combat, survival mechanics, and a dynamic war-driven world, this is a historical
@@ -37,7 +37,7 @@ export default function ConquidatorComponent() {
             </div>
 
             <div className="mt-7">
-                <h2 className="second-heading md:text-[52px] text-[26px] text-center font-semibold">Key Features</h2>
+                <h2 className="text-[26px] text-center font-semibold md:text-[52px] second-heading">Key Features</h2>
                 <ul className='mt-3'>
                     <li className='pb-4'>
                         <span className='text-white font-medium'>Choose Your Side:</span>
@@ -60,8 +60,8 @@ export default function ConquidatorComponent() {
             </div>
 
             <div className="mt-7">
-                <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">Concept Art Showcase</h2>
-                <div className="flex gap-6 mt-7 mx-auto max-w-[1000px] justify-center md:flex-row flex-col">
+                <h2 className="text-[26px] text-center font-semibold md:text-[52px] second-heading">Concept Art Showcase</h2>
+                <div className="flex flex-col justify-center gap-6 max-w-[1000px] md:flex-row mt-7 mx-auto">
                     <div>
                         <Image src={showcase1} className="rounded-[8px]" alt="" />
                     </div>
@@ -77,7 +77,7 @@ export default function ConquidatorComponent() {
                     </div>
                     
                 </div>
-                <div className="flex gap-6 mt-7 mx-auto max-w-[1000px] justify-center md:flex-row flex-col">
+                <div className="flex flex-col justify-center gap-6 max-w-[1000px] md:flex-row mt-7 mx-auto">
                     <div>
                         <Image src={showcase2}  className="rounded-[8px]" alt="" />
                     </div>
@@ -91,8 +91,8 @@ export default function ConquidatorComponent() {
             </div>
 
             <div className="mt-7">
-                <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">Why Conquistador?</h2>
-                <ul className='mt-3 list-disc marker:text-white ml-[16px]'>
+                <h2 className="text-[26px] text-center font-semibold md:text-[52px] second-heading">Why Conquistador?</h2>
+                <ul className='list-disc marker:text-white ml-[16px] mt-3'>
                    
                     <li className='pb-4'>
                         <label className='second-heading'>A historically immersive, cinematic RPG—a perfect fit for PlayStation's AAA storytelling lineup.</label>
@@ -107,10 +107,10 @@ export default function ConquidatorComponent() {
                 </ul>
             </div>
 
-            <div className="mt-7 mb-8">
-                <h2 className="second-heading md:text-[52px] text-[26px] font-semibold text-center">Final Call to Action</h2>
+            <div className="mb-8 mt-7">
+                <h2 className="text-[26px] text-center font-semibold md:text-[52px] second-heading">Final Call to Action</h2>
             
-                <p className='second-heading pt-2.5 text-center'>More Details coming soon. Stay tuned for the first look at gameplay.</p>
+                <p className='text-center pt-2.5 second-heading'>More Details coming soon. Stay tuned for the first look at gameplay.</p>
             </div>
         </div>
        

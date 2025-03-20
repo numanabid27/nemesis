@@ -6,7 +6,7 @@ export default function PartnerPitchComponent() {
   return (
     <>
         <div className="banner relative">
-            <div className="absolute right-0 left-0 top-0 bottom-0 h-fit m-auto">
+            <div className="absolute left-[16px] right-[16px] top-0 bottom-0 h-fit m-auto">
                 <h2 className="second-heading text-[22px] md:text-[44px] font-semibold text-center max-w-[900px] mx-auto">Dedicated section for PlayStation Partner & Investor</h2>
                 
             </div>

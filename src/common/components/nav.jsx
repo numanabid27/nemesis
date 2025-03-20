@@ -43,18 +43,22 @@ export default function Nav() {
       name:"Conquistador", 
       url:"/conquistador"
     },
+    {
+      name:"The Deity", 
+      url:"/the-deity"
+    },
 
   ]
   return (
-    <div className='flex container items-center justify-between'>
+    <div className='container flex justify-between items-center'>
         <div className='w-[25%]'>
             <Image src={logo} alt="" className='w-[90px]' />
         </div>
-        <div className="lg:hidden cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+        <div className="cursor-pointer lg:hidden" onClick={() => setIsOpen(!isOpen)}>
           <RxHamburgerMenu className='text-white' size={30} />
         </div>
         <div className={`absolute z-[99] top-[88px] left-0 w-full bg-[#1e1f22] shadow-md lg:static lg:w-auto lg:bg-transparent lg:shadow-none transition-all duration-300 ${isOpen ? "block" : "hidden"} lg:flex`}>
-          <ul className="flex flex-col lg:flex-row gap-5 p-5 lg:p-0">
+          <ul className="flex flex-col p-5 gap-5 lg:flex-row lg:p-0">
               {
                 data?.map((item, i)=>{
                   const isActive = pathname === item.url;
